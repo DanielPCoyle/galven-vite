@@ -1,0 +1,22 @@
+.iphone-14 {
+  width: 340px;
+  height: 710px;
+  border-radius: 40px;
+}
+.iphone-14:before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 36px;
+  border: 4px solid #b2b2b2;
+}
+.iphone-14:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+  border: 4px solid #000;
+  box-shadow: 0 0 0 2px #b2b2b2, 0 0 20px rgba(0, 0, 0, 0.5);
+}
