@@ -1,19 +1,18 @@
 import React from 'react';
 import { Row, Col, Form, Button } from 'react-bootstrap';
-
+import desktopPhone from './assets/desktopPhone.png';
 function FormRow() {
   return (
-    <Row>
+    <Row className="bg-light py-5 px-5">
       <Col md={7}>
-        <div className="d-flex flex-column justify-content-center align-items-center h-100">
-          <h2 className="text-center">
+        <div className="d-flex flex-column justify-content-center  h-100 w-75 mx-auto">
+          <h2 className="text-left">
             Help us build the future of experiential investing.
           </h2>
           <img
-            src="/desktop-iphone.png"
+            src={desktopPhone}
             alt="Desktop and iPhone"
-            className="mt-4 mb-3"
-            style={{ width: '80%' }}
+            className="mt-4 mb-3 w-75"
           />
         </div>
       </Col>
@@ -24,7 +23,7 @@ function FormRow() {
             <Form.Control type="email" placeholder="Enter email" />
           </Form.Group>
 
-          <Form.Group controlId="formBasicCheckbox">
+          <Form.Group controlId="formBasicCheckbox" className="mt-3">
             <Form.Label>
               Please check any categories you are interested below
             </Form.Label>
@@ -37,7 +36,7 @@ function FormRow() {
             </div>
           </Form.Group>
 
-          <Form.Group controlId="formBasicTextarea">
+          <Form.Group controlId="formBasicTextarea" className="mt-3">
             <Form.Label>What else are you interested in?</Form.Label>
             <Form.Control as="textarea" rows={3} />
           </Form.Group>

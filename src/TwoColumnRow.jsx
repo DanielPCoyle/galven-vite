@@ -1,25 +1,29 @@
 import React from 'react';
 import { Row, Col, Button } from 'react-bootstrap';
+import phoneHero from './assets/phoneHero.png';
+import logo from './assets/logo2.png';
 
 function TwoColumnRow() {
   return (
     <Row>
-      <Col md={7}>{/* First column content goes here */}</Col>
+      <Col md={7} className="text-center py-5">
+        <img className='w-75 mx-auto' src={phoneHero} alt="GALVEN phone" />
+      </Col>
       <Col md={5}>
-        <div className="d-flex flex-column justify-content-center align-items-center h-100">
-          <img src="/logo.png" alt="GALVEN logo" />
-          <h2 className="text-center">
+        <div className="d-flex flex-column justify-content-center h-100">
+          <img className='w-75' src={logo} alt="GALVEN logo" />
+          <h2 className="text-left">
             Experiential Investing.&nbsp;<sup>sm</sup>
             <br />
             Join the Team
           </h2>
-          <p className="text-center">
+          <p>
             GALVEN E.I is an investment platform where any investor can buy
             shares and participate in the ownership of thoroughbreds,
             motorsports, your favorite band, athlete NILs, real estate and more.
           </p>
-          <Button variant="primary" className="align-self-center">
-            Join The Team
+          <Button variant="primary" className='w-50'>
+            JOIN THE TEAM
           </Button>
         </div>
       </Col>

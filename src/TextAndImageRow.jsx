@@ -1,9 +1,9 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
-
+import galvenEI from './assets/galvenEI.png';
 function TextAndImageRow() {
   return (
-    <Row>
+    <Row className="px-5 py-5">
       <Col md={7}>
         <div className="py-3">
           <p>
@@ -29,7 +29,7 @@ function TextAndImageRow() {
       </Col>
       <Col md={5}>
         <div className="d-flex justify-content-center align-items-center h-100">
-          <img src="/iphone.png" alt="iPhone" style={{ width: '80%' }} />
+          <img src={galvenEI} alt="iPhone" style={{width:"45%"}} />
         </div>
       </Col>
     </Row>

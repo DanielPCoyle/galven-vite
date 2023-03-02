@@ -1,15 +1,14 @@
 import React from 'react';
 import { Navbar, Nav, Button } from 'react-bootstrap';
-
+import logo from './assets/logo.png';
 function TopNavbar() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="galven" expand="lg">
       <Navbar.Brand href="#home">
         <img
-          src="/logo.png"
-          width="30"
-          height="30"
-          className="d-inline-block align-top"
+        
+          src={logo}
+          className="d-inline-block align-top ms-3"
           alt="GALVEN logo"
         />
       </Navbar.Brand>
@@ -18,9 +17,11 @@ function TopNavbar() {
         <Nav className="mr-auto">
           {/* Add additional links here if needed */}
         </Nav>
-        <Button variant="primary" className="ml-auto">
+        <div className="ms-auto">
+        <Button variant="primary" className="me-3">
           Sign Up
         </Button>
+        </div>
       </Navbar.Collapse>
     </Navbar>
   );

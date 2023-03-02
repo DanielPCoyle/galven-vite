@@ -1,9 +1,9 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
-
+import vip from "./assets/Vip.png";
 function ThreeColumnRow() {
   return (
-    <Row>
+    <Row className="px-5">
       <Col md={4}>
         <div className="py-3">
           <h3>Live Chats</h3>
@@ -21,7 +21,7 @@ function ThreeColumnRow() {
       </Col>
       <Col md={4}>
         <div className="d-flex justify-content-center align-items-center h-100">
-          <img src="/vip-pass.png" alt="VIP Pass" style={{ width: '80%' }} />
+          <img src={vip} alt="VIP Pass" style={{ width: '45%' }} />
         </div>
       </Col>
       <Col md={4}>
