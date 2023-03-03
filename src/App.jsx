@@ -31,19 +31,19 @@ function GALVEN() {
       <Col md={4}>
         <div className="d-flex flex-column align-items-center">
           <img src={signup} alt="Cell Phone" style={{ width: '50%' }} />
-          <h3 className="mt-3 text-center">Create a User Profile</h3>
+          <div className="mt-3 text-center fs-4">Create a <br/>User Profile</div>
         </div>
       </Col>
       <Col md={4}>
         <div className="d-flex flex-column align-items-center">
           <img src={buyshare} alt="Cell Phone" style={{ width: '50%' }} />
-          <h3 className="mt-3 text-center">Buy Shares</h3>
+          <div className="mt-3 text-center fs-4">Buy <br/>Shares</div>
         </div>
       </Col>
       <Col md={4}>
         <div className="d-flex flex-column align-items-center">
           <img src={joinTeam} alt="Cell Phone" style={{ width: '50%' }} />
-          <h3 className="mt-3 text-center">Join the Team</h3>
+          <div className="mt-3 text-center fs-4">Join the <br/> Team</div>
         </div>
       </Col>
     </Row>

@@ -3,7 +3,7 @@ import { Row, Col } from 'react-bootstrap';
 import galvenEI from './assets/galvenEI.png';
 function TextAndImageRow() {
   return (
-    <Row className="px-5 py-5">
+    <Row className="px-5 pt-3 pb-5">
       <Col md={7}>
         <div className="py-3">
           <p>

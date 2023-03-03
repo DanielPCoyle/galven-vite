@@ -6,12 +6,12 @@ function ThreeColumnRow() {
     <Row className="px-5">
       <Col md={4}>
         <div className="py-3">
-          <h3>Live Chats</h3>
+          <h3 className="pb-3">Live Chats</h3>
           <p>Long form YouTube streams</p>
           <p>
             Chats cover all available investments within a particular vertical
           </p>
-          <h3 className="mt-4">Owner Updates</h3>
+          <h3 className="mt-5">Owner Updates</h3>
           <p>Short form, in-app video updates</p>
           <p>
             Updates come directly from the athletes, musician or team members
@@ -26,13 +26,13 @@ function ThreeColumnRow() {
       </Col>
       <Col md={4}>
         <div className="py-3">
-          <h3>Live News + Social Media</h3>
+          <h3 className="pb-3">Live News + Social Media</h3>
           <p>Live in-app news feeds.</p>
           <p>
             Live in-app social media updates from your athlete, musician or
             people working closely with your investment.
           </p>
-          <h3 className="mt-4">Exclusive Offers</h3>
+          <h3 className="mt-5">Exclusive Offers</h3>
           <p>First access to special passes.</p>
           <p>
             Limited edition memorabilia, gifts, autographs and signed photos.

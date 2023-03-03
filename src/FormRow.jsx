@@ -6,9 +6,9 @@ function FormRow() {
     <Row className="bg-light py-5 px-5">
       <Col md={7}>
         <div className="d-flex flex-column justify-content-center  h-100 w-75 mx-auto">
-          <h2 className="text-left">
+            <div className="fs-3" >
             Help us build the future of experiential investing.
-          </h2>
+            </div>
           <img
             src={desktopPhone}
             alt="Desktop and iPhone"

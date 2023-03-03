@@ -10,7 +10,7 @@ function TwoColumnRow() {
         <img className='w-75 mx-auto' src={phoneHero} alt="GALVEN phone" />
       </Col>
       <Col md={5}>
-        <div className="d-flex flex-column justify-content-center h-100">
+        <div className="d-flex flex-column justify-content-center h-100 px-3">
           <img className='w-75' src={logo} alt="GALVEN logo" />
           <h2 className="text-left">
             Experiential Investing.&nbsp;<sup>sm</sup>
@@ -22,7 +22,7 @@ function TwoColumnRow() {
             shares and participate in the ownership of thoroughbreds,
             motorsports, your favorite band, athlete NILs, real estate and more.
           </p>
-          <Button variant="primary" className='w-50'>
+          <Button variant="primary" className='w-50 mb-3'>
             JOIN THE TEAM
           </Button>
         </div>
