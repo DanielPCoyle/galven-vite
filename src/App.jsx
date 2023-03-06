@@ -47,8 +47,33 @@ function GALVEN() {
         </div>
       </Col>
     </Row>
-    <Row className="bg-galven py-5">
-      <Col>&nbsp;</Col>
+    <Row className="bg-galven py-5 small">
+      <Col className='small'>
+      <div className='container small'>
+      <small>Galven.com is a website (the “Platform”) operated by Galven
+Investment Strategies, LLC (“the Company”). The Company is
+conducting a market research survey to gage interest in the
+concept of Experiential Investing (“E.I.”). The Company does
+not give investment advice, endorsement, analysis, or
+recommendations with respect to any securities and the
+content contained on the Platform does not constitute an offer
+by the Company, or any affiliate to sell, solicit or make an offer
+to buy an investment interest, or security of any kind. Any
+potential investment overview, actual or implied, found on the
+Platform is intended only as a summary of a future investment
+concept displayed for the sole purpose of conducting market
+research to measure interest in E.I.
+In the future, the Company may elect to file an offering
+statement with the U.S. Securities and Exchange Commission
+(“SEC”) under Regulation A, of the Securities Act of 1933, as
+amended. No money or other consideration is being solicited at
+this time and if sent to us will not be accepted. No investment
+summaries or offers to buy or sell securities are available on
+this site and we are not, and cannot solicit, or accept any offer
+to buy securities. By accessing this site and any pages thereof,
+you agree to be bound by the Terms of Use and Privacy Policy.</small>
+</div>
+      </Col>
     </Row>
     </>
   );

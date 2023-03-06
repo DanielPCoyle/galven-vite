@@ -8,7 +8,7 @@ function TextAndImageRow() {
         <div className="py-3">
           <p>
             Have you ever wanted to be in the Winner’s Circle at Churchill
-            Downs.
+            Downs?
           </p>
           <p>
             Would you like to participate in a private post-event video

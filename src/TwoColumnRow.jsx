@@ -10,19 +10,19 @@ function TwoColumnRow() {
         <img className='w-75 mx-auto' src={phoneHero} alt="GALVEN phone" />
       </Col>
       <Col md={5}>
-        <div className="d-flex flex-column justify-content-center h-100 px-3">
+        <div className="d-flex flex-column  h-100 px-3 py-5">
           <img className='w-75' src={logo} alt="GALVEN logo" />
           <h2 className="text-left">
             Experiential Investing.&nbsp;<sup>sm</sup>
             <br />
             Join the Team
           </h2>
-          <p>
+          <p className='py-3'>
             GALVEN E.I is an investment platform where any investor can buy
             shares and participate in the ownership of thoroughbreds,
-            motorsports, your favorite band, athlete NILs, real estate and more.
+            motorsports, <br/>your favorite band, athlete NILs, <br/>real estate and more.
           </p>
-          <Button variant="primary" className='w-50 mb-3'>
+          <Button variant="primary" className='w-50 mb-3 mt-5'>
             JOIN THE TEAM
           </Button>
         </div>
